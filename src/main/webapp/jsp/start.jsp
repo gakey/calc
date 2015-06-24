@@ -49,17 +49,17 @@
     </script>
 </head>
 <body>
-<noscript><h2>Enable Java script and reload this page to run Websocket Demo</h2></noscript>
-<h1>Calculator App Using Spring 4 WebSocket</h1>
+<noscript><h2>Calculate Demo</h2></noscript>
+<h1>２つの数字の足し算</h1>
 <div>
     <div>
         <button id="connect" onclick="connect();">Connect</button>
         <button id="disconnect" disabled="disabled" onclick="disconnect();">Disconnect</button><br/><br/>
     </div>
     <div id="calculationDiv">
-        <label>Number One:</label><input type="text" id="num1" /><br/>
-        <label>Number Two:</label><input type="text" id="num2" /><br/><br/>
-        <button id="sendNum" onclick="sendNum();">Send to Add</button>
+        <label>1つめの数字:</label><input type="text" id="num1" /><br/>
+        <label>2つめの数字:</label><input type="text" id="num2" /><br/><br/>
+        <button id="sendNum" onclick="sendNum();">足し算する</button>
         <p id="calResponse"></p>
     </div>
 </div>
